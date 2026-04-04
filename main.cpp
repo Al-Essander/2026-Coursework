@@ -1,6 +1,34 @@
 #include <iostream>
 using namespace std;
 
+
+
+
+
+
+
+struct Fan
+{
+    unsigned int id;
+
+    double flowRate;  //Q^3
+    double pressure; //Pressure
+    double power; // Ny
+
+
+    bool isValid;
+};
+
+
+
+
+
+
+
+
+
+
+
 unsigned short int menu()
 {
     cout<<"fansearcher ver.0.1"<<endl;
