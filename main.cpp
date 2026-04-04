@@ -1,32 +1,44 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+using namespace std;
+
+unsigned short int menu()
+{
+    cout<<"fansearcher ver.0.1"<<endl;
+    cout<<"1.test"<<endl;
+    cout<<"0.exit"<<endl;
+
+    cout<<"choice: ";
+
+
+    unsigned short int choice;
+    cin>>choice;
+
+    return choice;
+}
 
 
 
 
-
-
-int main() {
-
-
-
-
+int main()
+{
     while (true) {
-
         unsigned short int choice = menu();
-        switch (choice) {
-        case 0:
-            return 0;
-        case 1:
-            return "case 1";
-        case 9:
-            break;
+        switch(choice)
+        {
+            case 0:
+                break;
 
 
 
+            case 1:
+                cout<< "test case 1"<<endl;
+                break;
+
+
+
+            default:
+                cout<<"unknown command..."<<endl;
+                break;
         }
-
-
     }
 }
