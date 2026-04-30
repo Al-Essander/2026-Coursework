@@ -1,11 +1,18 @@
 # depslib dependency file v1.0
-1776116268 source:c:\users\alexander\desktop\programming\2nd course\2026-coursework\main.cpp
+1777128815 source:c:\users\alexander\desktop\programming\2nd course\2026-coursework\main.cpp
 	<iostream>
 	<fstream>
 	<sstream>
 	<string>
 	<vector>
+	<map>
+	<unordered_map>
 	<cctype>
 	<algorithm>
+	<chrono>
+	<random>
+	<functional>
+	<cmath>
+	<cstdio>
 	<windows.h>
 
