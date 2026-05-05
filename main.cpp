@@ -942,7 +942,7 @@ int main()
         clearScreen();
         cout << "\n";
         cout << "  " << clr::BLU << clr::BOLD;
-        cout << "  Каталог вентиляторов — прототип v2\n";
+        cout << "  Каталог вентиляторов\n";
         cout << "  Курсовая работа, Андреев А.А., 2026\n";
         cout << clr::RST << "\n\n";
 

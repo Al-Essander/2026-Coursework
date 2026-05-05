@@ -32,6 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add option="-static-libgcc -static-libstdc++ -static" />
+		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
